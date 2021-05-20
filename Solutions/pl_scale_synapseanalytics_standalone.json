@@ -18,7 +18,7 @@
                 "userProperties": [],
                 "typeProperties": {
                     "url": {
-                        "value": "@concat('https://management.azure.com/subscriptions/',pipeline().parameters.SubscriptionId,'/resourceGroups/',pipeline().parameters.ResourceGroupName,'/providers/Microsoft.Sql/servers/',pipeline().parameters.ServerName,'/databases/',pipeline().parameters.DatabaseName,'?api-version=2014-04-01-preview')",
+                        "value": "@concat('https://management.azure.com/subscriptions/',pipeline().parameters.SubscriptionId,'/resourceGroups/',pipeline().parameters.ResourceGroupName,'/providers/Microsoft.Sql/servers/',pipeline().parameters.ServerName,'/databases/',pipeline().parameters.DatabaseName,'?api-version=2021-03-01')",
                         "type": "Expression"
                     },
                     "connectVia": {
