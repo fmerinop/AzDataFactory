@@ -5,7 +5,8 @@
 		"annotations": [],
 		"type": "AzureSqlDW",
 		"typeProperties": {
-			"connectionString": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=sgs-synapse-workspace.sql.azuresynapse.net;Initial Catalog=sqldwsgsg6pool"
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=sgs-synapse-workspace.sql.azuresynapse.net;initial catalog=sqldwsgsg6pool;user id=sqladminuser",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkFERi1TR1MtRzYtUE9DX2E3ZDU2NTM4LWUzOTktNDQ0Mi04YTM4LTYwZTM4ZjlmMjE3NyINCn0="
 		}
 	}
 }
