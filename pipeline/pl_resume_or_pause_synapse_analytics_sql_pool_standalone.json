@@ -106,7 +106,7 @@
 			},
 			"Command": {
 				"type": "string",
-				"defaultValue": "Pause"
+				"defaultValue": "Resume"
 			}
 		},
 		"folder": {
